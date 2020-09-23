@@ -1,12 +1,15 @@
 # order-book-reconstruction
 
 Reconstructed trading order book using json objects of trade events. 
-
 Downloaded bitcoin//usd trade data from coinbase in csv format where read into a pandas dataframe in chunks of 100,000 rows for efficent memory management.
 
 Python code chronologically processes each json object and plots the limit order quote on the graph below. This graph details the depth of market against percentage distance from best bid/ask price, current time and the current spread.
 
 ![Test video 1](Order_book_video.gif)
+# Example of Json Trade Quotes
+{'type': 'received', 'side': 'buy', 'product_id': 'BTC-USD', 'time': '2020-06-15T00:00:06.759655Z', 'sequence': 14716073842, 'order_id': 'fddbd1ac-caa4-4448-ab89-6162aad85381', 'order_type': 'limit', 'size': '0.639', 'price': '9325.05', 'client_oid': '8d14fed2-06ec-42d5-8f2c-047941e637f7'}
+
+
 
 # Future Work
 1. To develop custom search function to speed up dataprocessing to be able to process quotes in realtime.
