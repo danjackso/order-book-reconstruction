@@ -12,6 +12,7 @@ Python code chronologically processes each json object and plots the limit order
 
 {'type': 'open', 'side': 'buy', 'product_id': 'BTC-USD', 'time': '2020-06-15T00:00:05.339048Z','price': '9328.08', 'order_id': 'dc6fa905-e03a-4ed5-a9a7-4c296e788011', 'remaining_size': '0.01'}
 
+{'type': 'done', 'side': 'buy', 'product_id': 'BTC-USD', 'time': '2020-06-15T00:00:07.050407Z', 'order_id': '45a264d9-8077-4b2d-893d-91d39555bdf6', 'reason': 'filled', 'price': '9328.7', 'remaining_size': '0'}
 
 
 # Future Work
