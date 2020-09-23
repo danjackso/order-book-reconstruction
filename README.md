@@ -7,7 +7,10 @@ Python code chronologically processes each json object and plots the limit order
 
 ![Test video 1](Order_book_video.gif)
 # Example of Json Trade Quotes
-{'type': 'received', 'side': 'buy', 'product_id': 'BTC-USD', 'time': '2020-06-15T00:00:06.759655Z', 'sequence': 14716073842, 'order_id': 'fddbd1ac-caa4-4448-ab89-6162aad85381', 'order_type': 'limit', 'size': '0.639', 'price': '9325.05', 'client_oid': '8d14fed2-06ec-42d5-8f2c-047941e637f7'}
+{'type': 'received', 'side': 'buy', 'product_id': 'BTC-USD', 'time': '2020-06-15T00:00:06.759655Z',\
+'order_id': 'fddbd1ac-caa4-4448-ab89-6162aad85381', 'order_type': 'limit', 'size': '0.639', 'price': '9325.05'}
+
+{'type': 'open', 'side': 'buy', 'product_id': 'BTC-USD', 'time': '2020-06-15T00:00:05.339048Z','price': '9328.08', 'order_id': 'dc6fa905-e03a-4ed5-a9a7-4c296e788011', 'remaining_size': '0.01'}
 
 
 
